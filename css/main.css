@@ -3,7 +3,9 @@ body {
 	background:black;
 	font-family:Tahoma;
 	color:white;
-	margin-right:auto;
-	margin-left:auto;
 }
 
+.container {
+	max-width:600px;
+	margin: 0 auto;
+}
