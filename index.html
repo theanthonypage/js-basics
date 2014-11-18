@@ -23,10 +23,9 @@
 		var jesus = new Person  (5000, "Jesus H. Christ");
 
 		document.write("Hello, " + me.name + ", you are " + me.age + " years old.");
-		
+
 		document.write("<br />")
 
-		console.log("It's soooo cold outside");
 
 		function calcBirthYear(person){
 			birthYear = 2014 - person.age;
@@ -35,6 +34,31 @@
 
 		calcBirthYear(me);
 
+		console.log(5 == 5);
+		console.log(10 > 1);
+		console.log(4 < 5);
+
+		function shoutName(person){
+			console.log(person.name.toUpperCase()+"!");
+		}
+
+		shoutName(me);
+		shoutName(jesus);
+		shoutName(george);
+
+		var soLong = 'Supercalifragilisticexpialidocious';
+		console.log(soLong.length);
+
+		var team6 = {};
+		team6.first="Justin";
+		team6.second="Rich";
+		team6.third="Justine";
+		team6.fourth="Karla";
+		team6.fifth="Anthony";
+
+		console.log(team6.second);
+		console.log(team6.fourth);
+	
 
     	</script>
     	</div>
